@@ -1,0 +1,22 @@
+encoding "utf8";
+
+TTextMinerConfig {
+	Dictionary = "attraction.gzt";
+	PrettyOutput = "pretty.html";
+
+	Input = {
+		File = "input.txt";
+	}
+
+	Output = {
+		File = "attraction_output.xml";
+		Format = xml;
+	}
+Articles = [
+		{ Name = "Достопримечательность" } 
+	]
+
+Facts = [
+		{ Name = "Attraction" }
+	]
+}
